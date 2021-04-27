@@ -1,0 +1,166 @@
+#gen{
+  text-transform: capitalize;
+}
+
+
+.background{
+    
+  background-image: url("login1.jpg");
+  
+  height:100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+body{
+
+margin:0;
+font-family: "Dosis";
+font-size: 18px;
+
+
+
+}
+ header .header{
+    background-color: #fff;
+    height: 45px;
+  }
+header a img{
+    width: 134px;
+  margin-top: 4px;
+  } 
+
+  .login-page{
+
+    width: 40%;
+    padding: 3% 0 0;
+    margin: auto;
+
+  }
+
+  .login-page .form .login{
+
+
+    margin-top:-26px;
+    margin-bottom: 31px;
+    
+
+  }
+  .form{
+
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 400px;
+    margin: 0 auto 56px;
+    padding: 8% 10% 4% 10%;
+    text-align: center;
+    border-radius: 6%;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.27), 0 5px 5px 0 rgba(0,0,0,0.24);
+
+  }
+
+  .form input{
+
+    font-family: "Dosis";
+    outline:0;
+    background: #f2f2f2;
+    width: 100%;
+    border:0;
+    margin:0 0 15px;
+    padding: 4%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+
+  }
+  .form select{
+
+    font-family: "Dosis";
+    outline:0;
+    background: #f2f2f2;
+    width: 100%;
+    border:0;
+    margin:0 0 15px;
+    padding: 4%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+
+  }
+
+  .form button{
+
+    font-family: "Dosis";
+    text-transform: uppercase;
+    outline: 0px;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, #37c0e2, #3e58ad);
+    width:100%;
+    border:0; 
+    border-radius: 8px;
+    padding:4%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 3px;
+  }
+  .form button:hover{
+    background-image: linear-gradient(45deg, #40a3ba, #121576);
+     
+  
+  }
+  .container {
+      position:relative;
+      z-index: 1;
+      max-width: 300px;
+      margin: 0 auto;
+
+  }
+.logo{
+    width: 124px;
+    height: 59px;
+    
+    overflow: hidden;
+    
+    
+}
+
+.navbar{
+
+  overflow: hidden;
+  z-index:3;
+  background-image: linear-gradient(45deg,#5a5a5a,#303030);
+  background-color: #2de1ee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.navbar-button{
+
+  color: #f2f2f2;
+  float: right;
+  text-align:center;
+  padding: 17px 24px;
+  text-decoration: none;
+  border-radius:2px;
+  background-color: #281c91;
+}
+.navbar-button:hover{
+  background-color: #3121c4 ;
+
+
+}
+.brand-logo{
+  width: 82px;
+  height: 52px;
+  float: left;
+  overflow: hidden;
+  margin-top: 2px; 
+  
+} 

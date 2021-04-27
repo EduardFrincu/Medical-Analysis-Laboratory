@@ -1,0 +1,67 @@
+.background{
+    background-color: rgb(97, 3, 3);
+    background-image: url("analize-background.jpg");
+    
+    height:100%;
+    background-size: cover;
+    background-position: center;
+
+}
+body{
+
+margin:0;
+font-family: "Dosis";
+font-size: 18px;
+
+
+
+}
+.navbar{
+
+    overflow: hidden;
+    z-index:3;
+    background-image: linear-gradient(45deg,#5a5a5a,#303030);
+    background-color: #2de1ee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+    
+
+
+}
+.welcome-message{
+
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float:left;
+    font-weight:600;
+    font-size: larger;
+    
+}
+.navbar-button{
+
+    color: #f2f2f2;
+    float: right;
+    text-align:center;
+    padding: 17px 24px;
+    text-decoration: none;
+    border-radius:2px;
+    background-color: #281c91;
+}
+.navbar-button:hover{
+    background-color: #3121c4 ;
+
+
+}
+
+
+.logo{
+    width: 78px;
+    height: 52px;
+    float: left;
+    overflow: hidden;
+    margin-top: 1px;
+}
+    

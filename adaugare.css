@@ -1,0 +1,93 @@
+body{
+
+    margin:0;
+    font-family: "Dosis";
+    font-size: 18px;
+    }
+
+.background{
+
+    background-image: url("adaugare.jpg");
+    
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+.navbar{
+
+    overflow: hidden;
+    z-index:3;
+    background-image: linear-gradient(45deg,#5a5a5a,#303030);
+    background-color: #2de1ee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.navbar-button{
+
+    color: #f2f2f2;
+    float: right;
+    text-align:center;
+    padding: 17px 24px;
+    text-decoration: none;
+    border-radius:2px;
+    background-color: #281c91;
+}
+.navbar-button:hover{
+    background-color: #3121c4 ;
+
+
+}
+
+
+.container{
+
+
+    background-color: rgba(230, 230, 230, 0.885);
+    border-radius: 23px;
+    width: 30%;
+    margin: 12% auto;
+    height: 400px;
+    padding-left: 18px;
+    padding-top: 1px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2), 20px 14px 30px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18px;
+    text-align: center;
+
+}
+.logo{
+    width: 82px;
+    height: 52px;
+    float: left;
+    overflow: hidden;
+    margin-top: 2px; 
+    
+} 
+.container-button{
+
+    font-family: "Dosis";
+    text-transform: uppercase;
+    outline: 0px;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, #37c0e2, #3e58ad);
+    width: 75%;
+    border: 0;
+    border-radius: 8px;
+    padding: 4%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin-top: 30%;
+    text-decoration: none;
+    margin-left: 7%;
+    margin-right: 7%;
+    float: left;
+  }
+  .container-button:hover{
+    background-image: linear-gradient(45deg, #328396, #abad3e);
+     
+  
+  }
